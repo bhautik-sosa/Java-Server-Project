@@ -49,7 +49,7 @@ public class MyServlet extends HttpServlet {
 		try {
 			
 		
-			String api = "c9cc73e510128205e0077b4435154c8a";
+			String api = Your API KEY;
 			String city = request.getParameter("city");
 			String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api;
 			
